@@ -1,7 +1,8 @@
 Autonomous Taxi Agent using Q-Learning
 This project a reinforcement learning project that uses the Gymnasium library to create a custom environment for a taxi driver. The taxi driver is trained using the Q-Learning algorithm to navigate the environment and pick up and drop off passsengers. The taxi learns to optimize its path, avoid obstacles and restricted areas to maximize its reward.
 
-I used https://github.com/woutervanheeswijk/taxi_environment?tab=readme-ov-file as a reference for my project.
+I used this project as reference :
+https://github.com/woutervanheeswijk/taxi_environment?tab=readme-ov-file
 
 - Custom environment:
   the project has a custom 6x6 grid with 5 dropoff/ pickup locations and 2 restricted areas.
@@ -45,11 +46,11 @@ The letters A,B,C,D,E represent the pickup and dropoff locations. The restricted
   4: pickup passenger
   5: drop off passenger
 
-- Hyperparameters
-  Episodes: 10,000
-  Alpha (Learning Rate): 0.1
-  Gamma (Discount Factor): 1.0
-  Epsilon (Exploration Rate): 0.1
+- Hyperparameters:
+  - Episodes: 10,000
+  - Alpha (Learning Rate): 0.1
+  - Gamma (Discount Factor): 1.0
+  - Epsilon (Exploration Rate): 0.1
 
 How to run:
 To train the agent from scratch:
@@ -58,8 +59,14 @@ To train the agent from scratch:
 2. Run the cells containing the TaxiEnv class definition and the visualization methods.
 3. Run the Training cell.
    o This will train the agent for 10,000 episodes.
-   o It will automatically save the best Q-Table to taxi_q_table.csv. 2. Test policy performance after training:
-4. Ensure taxi_q_table.csv exists in the directory (created after training).
-5. Run the Testing cell.
+   o It will automatically save the best Q-Table to taxi_q_table.csv.
+4. Test policy performance after training:
+   o Run the Testing cell.
    o This will load the Q-Table from taxi_q_table.csv and run the agent in the environment.
    o It will display the final reward and a visualization of the agent's path.
+
+- Results:
+  ![res1](res1.png)
+  ![res2](res2.png)
+
+  Accourding to the results, the agent showed an excellant performance and was able to learn its way pretty early on, achieving its best cumulative reward of 16.0 at Episode 488.
