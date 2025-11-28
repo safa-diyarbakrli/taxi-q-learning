@@ -25,7 +25,7 @@ MAP = [
 The letters A,B,C,D,E represent the pickup and dropoff locations. The restricted area R is marked with a red square. The '|' symbol represents the walls of the environment.
 Visually, I wasn't able to get the grid lines to fit the map properly, however that does not affect the performance of the agent.
 
-![res1](animation.gif)
+   ![res1](animation.gif)
 
 - Q-Learning algorithm:
   the project implements the Q-Learning algorithm to train the taxi driver. The algorithm updates the Q-values based on the rewards received and the taxi's actions. The Q-Table is saved to a CSV file for future use without re-training.
