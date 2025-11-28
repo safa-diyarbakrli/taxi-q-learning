@@ -26,12 +26,6 @@ Görsel olarak, ızgara çizgilerinin haritaya tam olarak uymasını sağlayamad
 
 ![res1](animation.gif)
 
-- Q-Öğrenme algoritması:
-    Projede taksi sürücüsünü eğitmek için Q-Öğrenme algoritması uygulanmıştır. Algoritma, alınan ödüllere ve taksinin eylemlerine bağlı olarak Q-değerlerini günceller. Q-Tablosu, yeniden eğitime gerek kalmadan gelecekte kullanılmak üzere bir CSV dosyasına kaydedilir.
-
-- Değerlendirme:
-    Ajan, eğitim sırasında her 300 bölümde bir değerlendirilir. Daha sonra kümülatif ödüle göre en iyi model takip edilir ve kaydedilir.
-
 - Ödül sistemi:
     Ödül sistemi Gymnasium Taxi-v3 ortamı ile aynıdır:
 
@@ -54,6 +48,12 @@ Toplam 6 action vardır:
     - Alpha (Öğrenme Oranı): 0.1
     - Gamma (İskonto Faktörü): 1.0
     - Epsilon (Keşif Oranı): 0.1    
+
+- Q-Öğrenme algoritması:
+    Projede taksi sürücüsünü eğitmek için Q-Öğrenme algoritması uygulanmıştır. Algoritma, alınan ödüllere ve taksinin eylemlerine bağlı olarak Q-değerlerini günceller. Q-Tablosu, yeniden eğitime gerek kalmadan gelecekte kullanılmak üzere bir CSV dosyasına kaydedilir.
+
+- Değerlendirme:
+    Ajan, eğitim sırasında her 300 bölümde bir değerlendirilir. Daha sonra kümülatif ödüle göre en iyi model takip edilir ve kaydedilir.
 
 Nasıl çalıştırılır:
     Ajanı sıfırdan eğitmek için:
