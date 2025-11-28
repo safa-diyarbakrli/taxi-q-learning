@@ -6,6 +6,8 @@ I used https://github.com/woutervanheeswijk/taxi_environment?tab=readme-ov-file 
 - Custom environment:
   the project has a custom 6x6 grid with 5 dropoff/ pickup locations and 2 restricted areas.
 
+````
+```
 MAP = [
 "+-----------+",
 "| : | : : : |",
@@ -16,6 +18,8 @@ MAP = [
 "| | : : : |E|",
 "+-----------+",
 ]
+```
+````
 
 The letters A,B,C,D,E represent the pickup and dropoff locations. The restricted area R is marked with a red square. The '|' symbol represents the walls of the environment.
 
@@ -48,7 +52,14 @@ The letters A,B,C,D,E represent the pickup and dropoff locations. The restricted
   Epsilon (Exploration Rate): 0.1
 
 How to run:
-To train the agent from scratch: 1. Open the Jupyter Notebook taxi_q_learning.ipynb. 2. Run the cells containing the TaxiEnv class definition and the visualization methods. 3. Run the Training cell.
-o This will train the agent for 10,000 episodes.
-o It will automatically save the best Q-Table to taxi_q_table.csv. 2. Test policy performance after training:
-Ensure taxi_q_table.csv exists in the directory (created after training).Then you can run the Testing cell.
+To train the agent from scratch:
+
+1. Open the Jupyter Notebook taxi_q_learning.ipynb.
+2. Run the cells containing the TaxiEnv class definition and the visualization methods.
+3. Run the Training cell.
+   o This will train the agent for 10,000 episodes.
+   o It will automatically save the best Q-Table to taxi_q_table.csv. 2. Test policy performance after training:
+4. Ensure taxi_q_table.csv exists in the directory (created after training).
+5. Run the Testing cell.
+   o This will load the Q-Table from taxi_q_table.csv and run the agent in the environment.
+   o It will display the final reward and a visualization of the agent's path.
