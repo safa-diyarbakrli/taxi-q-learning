@@ -66,7 +66,10 @@ To train the agent from scratch:
    o It will display the final reward and a visualization of the agent's path.
 
 - Results:
+  
   ![res1](res1.png)
+
   ![res2](res2.png)
+
 
   Accourding to the results, the agent showed an excellant performance and was able to learn its way pretty early on, achieving its best cumulative reward of 16.0 at Episode 488.
