@@ -70,5 +70,6 @@ Nasıl çalıştırılır:
   ![res1](res1.png)
   
   ![res2](res2.png)
+   
+Sonuçlara göre ajan oldukça başarılı bir performans göstermiş ve oldukça erken öğrenmiştir. 488. bölümde 16.0 en iyi kümülatif ödülüne ulaşmıştır.
 
-    Sonuçlara göre ajan oldukça başarılı bir performans göstermiş ve oldukça erken öğrenmiştir. 488. bölümde 16.0 en iyi kümülatif ödülüne ulaşmıştır.
