@@ -22,6 +22,9 @@ MAP = [
 
 
 A, B, C, D, E harfleri alma ve bırakma noktalarını temsil eder. R harfi kırmızı kare ile gösterilen yasaklı alanı belirtir. ‘|’ sembolü ortamın duvarlarını ifade eder.
+Görsel olarak, ızgara çizgilerinin haritaya tam olarak uymasını sağlayamadım, ancak bu, aracının performansını etkilemiyor.
+
+![res1](animation.gif)
 
 - Q-Öğrenme algoritması:
     Projede taksi sürücüsünü eğitmek için Q-Öğrenme algoritması uygulanmıştır. Algoritma, alınan ödüllere ve taksinin eylemlerine bağlı olarak Q-değerlerini günceller. Q-Tablosu, yeniden eğitime gerek kalmadan gelecekte kullanılmak üzere bir CSV dosyasına kaydedilir.
@@ -66,7 +69,9 @@ Nasıl çalıştırılır:
         o Son ödülü ve ajanın yolunun görselleştirmesini görüntüler.
 
 • Sonuçlar:
+
   ![res1](res1.png)
+
   ![res2](res2.png)
 
-    Sonuçlara göre ajan oldukça başarılı bir performans göstermiş ve oldukça erken öğrenmiştir. 488. bölümde 16.0 en iyi kümülatif ödülüne ulaşmıştır.
+  Sonuçlara göre ajan oldukça başarılı bir performans göstermiş ve oldukça erken öğrenmiştir. 488. bölümde 16.0 en iyi kümülatif ödülüne ulaşmıştır.

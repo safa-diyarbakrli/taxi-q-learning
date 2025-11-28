@@ -23,6 +23,9 @@ MAP = [
 ````
 
 The letters A,B,C,D,E represent the pickup and dropoff locations. The restricted area R is marked with a red square. The '|' symbol represents the walls of the environment.
+Visually, I wasn't able to get the grid lines to fit the map properly, however that does not affect the performance of the agent.
+
+![res1](animation.gif)
 
 - Q-Learning algorithm:
   the project implements the Q-Learning algorithm to train the taxi driver. The algorithm updates the Q-values based on the rewards received and the taxi's actions. The Q-Table is saved to a CSV file for future use without re-training.
@@ -66,7 +69,9 @@ To train the agent from scratch:
    o It will display the final reward and a visualization of the agent's path.
 
 - Results:
+
   ![res1](res1.png)
+
   ![res2](res2.png)
 
   Accourding to the results, the agent showed an excellant performance and was able to learn its way pretty early on, achieving its best cumulative reward of 16.0 at Episode 488.
