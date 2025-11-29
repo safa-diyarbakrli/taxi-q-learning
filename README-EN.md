@@ -55,7 +55,7 @@ Visually, I wasn't able to get the grid lines to fit the map properly, however t
 - Evaluation:
   The agent is evaluated every 300 episodes during training. Then, tracks and saves the best model based on cumulative reward. Finally, it plots the cumulative reward over time and the loss over time.
   
-How to run:
+- How to run:
 To train the agent from scratch:
 
 1. Open the Jupyter Notebook taxi_q_learning.ipynb.
