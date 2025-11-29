@@ -53,7 +53,7 @@ Visually, I wasn't able to get the grid lines to fit the map properly, however t
   the project implements the Q-Learning algorithm to train the taxi driver. The algorithm updates the Q-values based on the rewards received and the taxi's actions. The Q-Table is saved to a CSV file for future use without re-training.
 
 - Evaluation:
-  The agent is evaluated every 300 episodes during training. Then, tracks and saves the best model based on cumulative reward.
+  The agent is evaluated every 300 episodes during training. Then, tracks and saves the best model based on cumulative reward. Finally, it plots the cumulative reward over time and the loss over time.
   
 How to run:
 To train the agent from scratch:
