@@ -59,7 +59,7 @@ Toplam 6 action vardır:
     Ajanı sıfırdan eğitmek için:
 
    1. taxi_q_learning.ipynb Jupyter Notebook dosyasını açın.
-   2. TaxiEnv sınıfı tanımını ve görselleştirme yöntemlerini içeren     hücreleri çalıştırın.
+   2. TaxiEnv sınıfı tanımını ve görselleştirme yöntemlerini içeren hücreleri çalıştırın.
    3. Eğitim hücresini çalıştırın.
         o Bu işlem ajanı 10,000 bölüm boyunca eğitir.
         o En iyi Q-Tablosunu otomatik olarak taxi_q_table.csv dosyasına kaydeder.
