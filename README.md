@@ -55,7 +55,7 @@ Toplam 6 action vardır:
 - Değerlendirme:
     Ajan, eğitim sırasında her 300 bölümde bir değerlendirilir. Daha sonra kümülatif ödüle göre en iyi model takip edilir ve kaydedilir.
 
-Nasıl çalıştırılır:
+- Nasıl çalıştırılır:
     Ajanı sıfırdan eğitmek için:
 
    1. taxi_q_learning.ipynb Jupyter Notebook dosyasını açın.
@@ -68,7 +68,7 @@ Nasıl çalıştırılır:
         o  Bu işlem CSV dosyasından Q-Tablosunu yükler ve ajanı ortamda çalıştırır.
         o Son ödülü ve ajanın yolunun görselleştirmesini görüntüler.
 
-• Sonuçlar:
+- Sonuçlar:
 
 
   ![res1](res1.png)
